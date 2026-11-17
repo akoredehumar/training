@@ -2,34 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Training & development company</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <title>Training and Development | Tobams Group</title>
     <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <div class="logo"><img src="./images/logo.png" alt=""></div>
-        <div class="btn">
-            <button class="account"><img src="./images/user.png" alt="">Account</button>
-             <button class="assesment">REGISTER</button>
+    <header class="site-header">
+        <a class="logo" href="#" aria-label="Tobams Group home">
+            <img src="./images/logo.png" alt="Tobams Group">
+        </a>
+
+        <div class="header-actions">
+            <button class="account" type="button">
+                <img src="./images/user.png" alt="" aria-hidden="true">
+                <span>Account</span>
+            </button>
+            <button class="assessment" type="button">Take Assessment</button>
         </div>
+
+        <details class="mobile-menu">
+            <summary aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </summary>
+            <div class="mobile-menu-panel">
+                <nav aria-label="Mobile navigation">
+                    <a href="#">About</a>
+                    <a href="#">What We Do</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Projects</a>
+                    <a href="#">TG Academy</a>
+                    <a href="#">Strategic Partnership</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Book a Consultation</a>
+                </nav>
+                <div class="mobile-actions">
+                    <button class="account" type="button">
+                        <img src="./images/user.png" alt="" aria-hidden="true">
+                        <span>Account</span>
+                    </button>
+                    <button class="assessment" type="button">Take Assessment</button>
+                </div>
+            </div>
+        </details>
     </header>
-    <nav>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
         <a href="#">About</a>
         <a href="#">What We Do</a>
         <a href="#">Jobs</a>
         <a href="#">Projects</a>
         <a href="#">TG Academy</a>
-        <a href="#">Strategic partnership</a>
+        <a href="#">Strategic Partnership</a>
         <a href="#">Pricing</a>
-        <a href="#">Book a consulatation</a>
-
-
-
-
+        <a href="#">Book a Consultation</a>
     </nav>
-    
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="eyebrow">What we do</p>
+                <h1 id="hero-title">Training and Development</h1>
+                <p class="hero-description">
+                    Our comprehensive range of programs and resources is designed
+                    to enhance skills, broaden knowledge, and propel careers forward
+                    in today's ever-evolving landscape.
+                </p>
+                <a class="hero-cta" href="#">Book a Consultation</a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
